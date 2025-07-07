@@ -1,9 +1,22 @@
 {
-  "customizations": {
-    "vscode": {
-      "extensions": [
-        "saoudrizwan.claude-dev"
-      ]
+    "name": "Let's Prototyping",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "saoudrizwan.claude-dev"
+            ]
+        },
+
+        "settings": {
+            "files.autoSave": "afterDelay",
+            "files.autoSaveDelay": 300
+        }
+    },
+    
+    "features": {
+        "ghcr.io/devcontainers/features/node:1": {
+            "version": "24",
+            "nodeGypDependencies": true
+        }
     }
-  }
 }
